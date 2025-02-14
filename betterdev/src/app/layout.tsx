@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Outfit } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -17,7 +17,7 @@ const outfit = Outfit({
   weight: "400",
   style: "normal",
   subsets: ["latin"],
-})
+});
 
 export const metadata: Metadata = {
   title: "BetterDev - Senior Engineer at one click ",
@@ -31,9 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={outfit.className}
-      >
+      <body className={outfit.className}>
         {children}
         <Analytics />
       </body>
