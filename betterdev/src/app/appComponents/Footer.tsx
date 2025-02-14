@@ -28,7 +28,7 @@ function Footer() {
             </a>
             
             <a 
-              href="https://www.linkedin.com/in/sameerposwal/"
+              href="https://www.linkedin.com/in/harsh-bestmerndev/"
               target="_blank"
               >
               <Linkedin className='
@@ -38,7 +38,7 @@ function Footer() {
             </a>
             
             <a 
-              href="https://twitter.com/sameerposwal03"
+              href="hmriduhash.netlify.app"
               target="_blank"
               >
               <Twitter className='
